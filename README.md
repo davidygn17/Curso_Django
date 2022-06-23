@@ -1,5 +1,5 @@
 # Curso_Django
-começando 
+Começando 
 
 
-aplicaçao disponivel em https://git.heroku.com/davidyurigarcia.git
+Aplicaçao disponivel em https://git.heroku.com/davidyurigarcia.git
