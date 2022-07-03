@@ -10,6 +10,7 @@ setuptools = "*"
 pytest-django = "*"
 python-decouple = "*"
 config = "*"
+scout-apm = "*"
 
 [dev-packages]
 flake8 = "*"
