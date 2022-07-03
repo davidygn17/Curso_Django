@@ -1,18 +1,19 @@
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+.venv /
+.env /
+venv /
+ENV /
+env.bak /
+venv.bak /
+.env - sample /
 
 # Spyder project settings
 .robeproject
 
 # mkdocs documentation
-/site
+/ site
 
 # mypy
-.mypy_cache/
+.mypy_cache /
 
 # postgres files local development
 .pgdata
