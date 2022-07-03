@@ -8,9 +8,13 @@ django = "*"
 gunicorn = "*"
 setuptools = "*"
 pytest-django = "*"
+python-decouple = "*"
+config = "*"
 
 [dev-packages]
 flake8 = "*"
+pytest-cov = "*"
+codecov = "*"
 
 [requires]
 python_version = "3.10.5"
