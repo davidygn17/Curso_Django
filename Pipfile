@@ -11,6 +11,8 @@ pytest-django = "*"
 python-decouple = "*"
 config = "*"
 scout-apm = "*"
+env = "*"
+pgdata = "*"
 
 [dev-packages]
 flake8 = "*"
