@@ -13,6 +13,8 @@ config = "*"
 scout-apm = "*"
 env = "*"
 pgdata = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 flake8 = "*"
