@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "43cac424a2ccdf1a5dd1cfa36a37a3264f343f8dea3f3bc50a5d055e3c191125"
+            "sha256": "cfa19108d4ee2afc41bb24e2f0243c12ad3e9c0014394df78b0106f162b0bd73"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -34,11 +34,10 @@
         },
         "atomicwrites": {
             "hashes": [
-                "sha256:6d1784dea7c0c8d4a5172b6c620f40b6e4cbfdf96d783691f2e1302a7b88e197",
-                "sha256:ae70396ad1a434f9c7046fd2dd196fc04b12f9e91ffb859164193be8b6168a7a"
+                "sha256:81b2c9071a49367a7f770170e5eec8cb66567cfbbc8c73d20ce5ca4a8d71cf11"
             ],
             "markers": "sys_platform == 'win32'",
-            "version": "==1.4.0"
+            "version": "==1.4.1"
         },
         "attrs": {
             "hashes": [
@@ -50,19 +49,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:375f3276f257d1b7be8b3101427778e4e865a06ba35d3853d619b5559895a07a",
-                "sha256:ddfb72c3a24b58fde7050525f7939166816c0911196abc0d66c9d34ee26d9717"
+                "sha256:453136cdfeccec5ac969e8b237916ef387cd6b150e38757b6c51cd4808c7969b",
+                "sha256:7f2772aa9f8fef011ad1bf5e631365bfeda20952a75a9edead3f5396aa1e8565"
             ],
             "index": "pypi",
-            "version": "==1.24.24"
+            "version": "==1.24.25"
         },
         "botocore": {
             "hashes": [
-                "sha256:18227ab1c4646f54cd5deb8cdf6f096ce9867b2354416f6becaea45bb12c028a",
-                "sha256:e3038a19cc442c16bdf05afd34a2b7717b3fe2ed50b3847472eb9e730cf4691a"
+                "sha256:345616f51ee6c4f3edefa1623cf65a954ba21576371c153dfc2b8ed642870999",
+                "sha256:cc4f025dc7187797b6b7115274399612b3fe8e777150fc9df7e132bd9e90901c"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.27.24"
+            "version": "==1.27.25"
         },
         "certifi": {
             "hashes": [
@@ -139,6 +138,14 @@
                 "sha256:fcd131dd944808b5bdb38e6f5b53013c5aa4f334c5cad0c72742f6eba4b73db0"
             ],
             "version": "==1.15.1"
+        },
+        "collectfast": {
+            "hashes": [
+                "sha256:2f6abc8cab7ec5114a7a9a3660ab629ec142556957220aa82857dc9b4381490d",
+                "sha256:e716b2234ab50b5f1010b0d78c3fae8c6aebdb8b7c66ef5568503c33c1a5e19a"
+            ],
+            "index": "pypi",
+            "version": "==2.2.0"
         },
         "colorama": {
             "hashes": [
@@ -716,6 +723,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.0.1"
         },
+        "typing-extensions": {
+            "hashes": [
+                "sha256:25642c956049920a5aa49edcdd6ab1e06d7e5d467fc00e0506c44ac86fbfca02",
+                "sha256:e6d2677a32f47fc7eb2795db1dd15c1f34eff616bcaf2cfb5e997f854fa1c4a6"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==4.3.0"
+        },
         "tzdata": {
             "hashes": [
                 "sha256:238e70234214138ed7b4e8a0fab0e5e13872edab3be586ab8198c407620e2ab9",
@@ -809,11 +824,10 @@
     "develop": {
         "atomicwrites": {
             "hashes": [
-                "sha256:6d1784dea7c0c8d4a5172b6c620f40b6e4cbfdf96d783691f2e1302a7b88e197",
-                "sha256:ae70396ad1a434f9c7046fd2dd196fc04b12f9e91ffb859164193be8b6168a7a"
+                "sha256:81b2c9071a49367a7f770170e5eec8cb66567cfbbc8c73d20ce5ca4a8d71cf11"
             ],
             "markers": "sys_platform == 'win32'",
-            "version": "==1.4.0"
+            "version": "==1.4.1"
         },
         "attrs": {
             "hashes": [
@@ -856,7 +870,9 @@
             "version": "==0.4.5"
         },
         "coverage": {
-            "extras": [],
+            "extras": [
+                "toml"
+            ],
             "hashes": [
                 "sha256:01c5615d13f3dd3aa8543afc069e5319cfa0c7d712f6e04b920431e5c564a749",
                 "sha256:106c16dfe494de3193ec55cac9640dd039b66e196e4641fa8ac396181578b982",
